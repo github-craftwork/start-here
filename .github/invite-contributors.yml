@@ -1,4 +1,2 @@
-# If true, this will add new contributors as outside collaborators
-# to the repo their PR was merged in. Team name is ignored if this
-# flag is set to true.
-isOutside: true
+# team name
+team: Workshop Attendees
