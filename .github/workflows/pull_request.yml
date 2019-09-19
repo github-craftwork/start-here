@@ -9,3 +9,9 @@ jobs:
       uses: pascalgn/automerge-action@33f73f0a562129c7e96123e98af20d4378f1fa3b
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Label when approved
+      uses: bdougie/label-when-approved-action@master
+      env:
+        APPROVALS: "1"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ADD_LABEL: "approved"
