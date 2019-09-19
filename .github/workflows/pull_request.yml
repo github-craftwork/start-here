@@ -1,5 +1,5 @@
 on: pull_request
-name: automerge pull requests on updates
+name: automerge pull requests
 jobs:
   automerge:
     runs-on: ubuntu-latest
