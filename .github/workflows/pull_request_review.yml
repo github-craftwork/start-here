@@ -1,5 +1,5 @@
 on: pull_request_review
-name: automerge pull requests on reviews
+name: label pull requests on reviews
 jobs:
   automerge:
     runs-on: ubuntu-latest
@@ -11,9 +11,3 @@ jobs:
         APPROVALS: "1"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         ADD_LABEL: "approved"
-    - name: automerge
-      uses: pascalgn/automerge-action@33f73f0a562129c7e96123e98af20d4378f1fa3b
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        AUTOMERGE: "approved"
-        MERGE_METHOD: "rebase"
