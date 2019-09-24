@@ -10,4 +10,4 @@ jobs:
     - name: send-invite
       uses: ./action
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.BDOUGIE_TOKEN }}
