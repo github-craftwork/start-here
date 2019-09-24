@@ -1,13 +1,13 @@
-  on:
+on:
   issue_comment:
     types: [created, edited]
-name: Weekly Meeting
+name: Invite to Attendee Team
 jobs:
-  cycle-weekly-meeting:
+  invite:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: cycle-weekly-meeting
+    - name: send-invite
       uses: ./action
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
