@@ -1,0 +1,13 @@
+  on:
+  issue_comment:
+    types: [created, edited]
+name: Weekly Meeting
+jobs:
+  cycle-weekly-meeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: cycle-weekly-meeting
+      uses: ./action
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
