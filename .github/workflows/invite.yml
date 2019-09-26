@@ -4,9 +4,9 @@ on:
 name: Invite a contributor
 
 jobs:
-  build:
+  invite-contributor:
     name: Prepare invite for new contributor
-    runs-on: ubuntu-latest   
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: invite-contributor
