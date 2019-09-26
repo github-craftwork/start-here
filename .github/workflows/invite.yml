@@ -1,0 +1,15 @@
+on:
+  issue_comment:
+    types: [created]
+name: Invite a contributor
+
+jobs:
+  build:
+    name: Prepare invite for new contributor
+    runs-on: ubuntu-latest # useful environment to we can run a simple bash    
+    steps:
+    - uses: actions/checkout@master
+    - name: invite-contributor
+      uses: ./action
+      env:
+        GITHUB_TOKEN: ${{ secrets.BDOUGIE_TOKEN }}
