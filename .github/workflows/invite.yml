@@ -1,12 +1,12 @@
 on:
   issue_comment:
-    types: [created]
+    types: [created, edited]
 name: Invite a contributor
 
 jobs:
   build:
     name: Prepare invite for new contributor
-    runs-on: ubuntu-latest # useful environment to we can run a simple bash    
+    runs-on: ubuntu-latest   
     steps:
     - uses: actions/checkout@master
     - name: invite-contributor
