@@ -18,7 +18,7 @@ Note that  this could take up to 30 seconds to show. Also be sure to check your 
 
 ## Part 0a: Open a PR
 
-Now that you are in the org you can make a PR that adds your self to the attendee.txt. The PR should automatically close thanks to another action created. 
+Now that you are in the org you can make a PR that adds your self to the [attendee.txt](attendees.txt). The PR should automatically close thanks to another action created. 
 
 Try to figure how all that worked while we wait for the rest of the group to join the organization.
 
