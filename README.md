@@ -6,7 +6,7 @@ Welcome to the Craftwork cheat sheet! This page has everything you need to make 
 
 In order for you to get access to the [GitHub Actions](https://github.com/features/actions) and follow along, you will need to join the [github-craftwork](https://github.com/github-craftwork) organization. Coincidently we have written some automation to make that work. 
 
-Invite yourself to the organization by typing  `.invite me` in [this issue](#18).
+Invite yourself to the organization by typing  `.invite me` in [this issue](https://github.com/github-craftwork/start-here/issues/29).
 
 Once you have submitted your comment, head over to the [Actions tab](https://github.com/github-craftwork/start-here/actions?workflow=Invite+a+contributor) for the the repo to find action triggered by your comment. 
 
