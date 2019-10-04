@@ -25,3 +25,5 @@ Now open up an issue leveraging the existing MadLib issue template template and 
 Note:  depending on how your resources and WiFi, you made need to refresh the page to see the issue get updated. 
 
 Once you have completed creating a successful MadLib, take a look at the [Variables in Markdown](https://github.com/marketplace/actions/variables-in-markdown) action page to learn more about this particular automation.
+
+[Continue to Part 3](part3-ci.md)
