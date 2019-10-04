@@ -11,3 +11,5 @@ The actions workflow, auto-approve.yml, is trigger on all pull requests. During 
 Click through the links to see the code, each one is approached differently, this is because actions are Virtual enviroments that run any specified and abritray code. 
 
 </details>
+
+Now that you have seen this in action, let's implement our first GitHub Action. Move on to [Part 1 of this workshop](part1-hello-world.md).
