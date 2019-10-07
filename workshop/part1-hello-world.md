@@ -67,7 +67,7 @@ Next let’s make our simple action a little more advanced by adding a name to t
             NAME: Mary
 
 
-Committing this change will also trigger the action and you should see the output of your variable just fine in the action logs as `h``e``llo Mary`. 
+Committing this change will also trigger the action and you should see the output of your variable just fine in the action logs as `hello Mary`. 
 
 Now we will leverage existing environment variables to add your name name 
 i.e. GITHUB_ACTOR.
