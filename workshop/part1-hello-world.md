@@ -15,6 +15,7 @@ Your initialized repository already has a triggered action. Click on the Actions
 
 Within the Actions tab, you will have a successful workflow run for your new **hello-world action**. Go ahead and click your workflow to see your logs. 
 
+_Note: These logs are powered by GitHub's [Checks API](https://developer.github.com/v3/checks/)_
 
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1570058201382_Screenshot+2019-10-02+16.16.33.png)
 
