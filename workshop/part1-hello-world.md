@@ -54,7 +54,17 @@ Find out more about the core concepts of [GitHub Actions](https://help.github.co
 One thing to take note of workflows are **jobs**.
 
 A `job` is defined task made up of steps. Each job is run in a fresh instance of the virtual environment. You can define the dependency rules for how jobs run in a workflow file. Jobs can run at the same time in parallel or be dependent on the status of a previous job and run sequentially. For example, a workflow can have two sequential jobs that build and test code, where the test job is dependent on the status of the build job. If the build job fails, the test job will not run.
- 
+
+**runs-on**
+
+GitHub hosts virtual machines with Linux, macOS, and Windows environments. Each job in a workflow executes in a fresh instance of the virtual environment. All steps in the job execute in the same instance of the virtual environment, allowing the actions in that job to share information using the filesystem.
+
+You can specify the virtual environment for each job in a workflow. You can configure each job to run in different virtual environments or run all jobs in the same environment.
+
+**Steps**
+
+A step is a set of tasks performed by a job. Each step in a job executes in the same virtual environment, allowing the actions in that job to share information using the filesystem. Steps can run commands or actions.
+
 ## Part 1a: Environment Variable
 
 Next let’s make our simple action a little more advanced by adding a name to the environments variables.
