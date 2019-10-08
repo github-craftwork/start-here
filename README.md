@@ -24,4 +24,4 @@ Try to figure how all that worked while we wait for the rest of the group to joi
 
 Once you have pontificated enough, compare your thoughts with this explanation — clink the link below for the explanation here.
 
-[Explanation](workshop/part0-explanation.md)
+[See Explanation](workshop/part0-explanation.md) or [start part 1 of this tutorial](workshop/part1-hello-world.md)
