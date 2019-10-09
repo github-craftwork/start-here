@@ -5,7 +5,7 @@
 Working with issues can be mundane, add the below action and ISSUE_TEMPLATE to your project for some fun with issues.
 
 **Commit to madlib.yml to master**
-Create a `madlib.yml`  in your `.github/workflo``ws` folder with the content below:
+Create a `madlib.yml`  in your `.github/workflows` folder with the content below:
 
 
     # madlib.yml
