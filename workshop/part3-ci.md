@@ -22,9 +22,7 @@ _Note: The [actions/starter-workflows](https://github.com/actions/starter-workfl
 
 The Actions Workflow wizard will install the sample workflow selected in your repo within the `.github` folder. You may edit the name of the file and its contents on the screen provided.
 
-
-![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569479703976_Screenshot+2019-09-25+23.34.51.png)
-
+![Screenshot 2019-10-09 17 02 03](https://user-images.githubusercontent.com/5713670/66528996-3d6bbe80-eaf1-11e9-98ca-d9bd5b148de8.png)
 
 Commit the `nodejs.yml` file to the master branch to complete this process of creating our first CI workflow. 
 
@@ -154,8 +152,7 @@ We will also need to add a step to our linter as a separate job in our `nodejs.y
 
 To do this we will use the [Node Code Formatter](https://github.com/marketplace/actions/node-code-formatter) Action.
 
-![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569484375707_Screenshot+2019-09-26+00.52.50.png)
-
+![Screenshot 2019-10-09 16 48 12](https://user-images.githubusercontent.com/5713670/66528510-a7836400-eaef-11e9-98db-0a5c29780d8a.png)
 
 **Add formatter workflow**
 Add the following code to your existing `nodejs.yml` and open a pull request with this change.
@@ -310,6 +307,6 @@ Before you merge these changes to master, head over to the package.json and repl
 
 To start the  `npmpublish` workflow, merge the PR.
 
-![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569515050527_Screenshot+2019-09-26+09.23.57.png)
+![Screenshot 2019-10-09 16 54 25](https://user-images.githubusercontent.com/5713670/66528746-8e2ee780-eaf0-11e9-9c68-149cbc1e7ddd.png)
 
 [Continue Part 4](part4-bonus.md)
