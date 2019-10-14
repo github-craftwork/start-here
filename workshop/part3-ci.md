@@ -228,7 +228,7 @@ To test this workflow, edit your draft using the existing tag created for it. On
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569513609522_Screenshot+2019-09-26+08.59.53.png)
 
 
-## Part 3d: Publish to NPM 
+## Part 3e: Publish to NPM 
 
 We have been using npm for some basic script commands thus far, `npm`, short for Node Package Manager, is two things: first and foremost, it is an online repository for the publishing of open-source Node.js projects; second, it is a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management. A plethora of node.js libraries and applications are published on npm, and many more are added every day. These applications can be searched for on [search.npmjs.org/.](http://search.npmjs.org/). 
 
