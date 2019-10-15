@@ -8,6 +8,7 @@
 @dmiller21283
 @svaj
 @dleehr
+@benmvp
 @alperg
 @robinbobbitt
 @DonSeannelly
@@ -34,11 +35,18 @@
 @OpenDataAlex
 @rileyk90
 @gjenning
+@ljhaywar
 @andrea-vega
 @avb100
 @chrisdaaz
 @drewsign
 @chbrown13
-@rarora4
 @drapergeek
+@miriamdeana
+@brew-install-buzzwords
+@rarora4
+@remrobem
+@drapergeek
+@ericbibiwang
+@leoguzynski
 @gfy100
