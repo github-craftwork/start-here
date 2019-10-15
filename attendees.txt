@@ -29,11 +29,16 @@
 @cmgmyr
 @mgray88
 @rermrobem
+@gjenning
 @patrickbrooks
 @OpenDataAlex
 @rileyk90
 @gjenning
-@brew-install-buzzwords
+@andrea-vega
 @avb100
+@chrisdaaz
 @drewsign
 @rarora4
+@chbrown13
+@drapergeek
+@brew-install-buzzwords
