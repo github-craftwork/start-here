@@ -35,6 +35,7 @@
 @OpenDataAlex
 @rileyk90
 @gjenning
+@ljhaywar
 @andrea-vega
 @avb100
 @chrisdaaz
