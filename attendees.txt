@@ -32,3 +32,5 @@
 @patrickbrooks
 @OpenDataAlex
 @rileyk90
+@gjenning
+@avb100
