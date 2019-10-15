@@ -43,6 +43,7 @@
 @chbrown13
 @drapergeek
 @miriamdeana
+@brew-install-buzzwords
 @rarora4
 @drapergeek
 @ericbibiwang
