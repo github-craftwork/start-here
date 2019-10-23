@@ -1,9 +1,9 @@
 
 # Parte 3: Continuous Integration (CI) 
 
-_Nota: The following section requires you to create a repository on your own account. You will need to ensure you have access to the [Actions](https://github.com/features/actions) and [Package Registry](https://github.com/features/package-registry) beta by navigating to the features page._
+_Nota: A seção abaixo requer que você crie um repositório na sua própria conta. Você precisa ter certeza que tem acesso ao beta das [Actions](https://github.com/features/actions) e ao [Package Registry](https://github.com/features/package-registry) acessando a página das funcionalidades._
 
-Next let’s start a new project in your personal repos (**not the github-craftwork org**) using the [github-craftwork/ci-template](https://github.com/github-craftwork/ci-template/generate). The contents of the project include JavaScript that finds out what the current week number it is today. 
+Em seguida, vamos criar um novo projeto no seu repositório pessoal (**não na org github-craftwork**) usando o [github-craftwork/ci-template](https://github.com/github-craftwork/ci-template/generate). Os conteúdos do projeto incluem JavaScript que definem qual a atual semana do ano. 
 
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569479640818_Screenshot+2019-09-25+23.33.52.png)
 
@@ -16,17 +16,17 @@ Integration process, you can begin by adding starter workflow file to the `.gith
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569479299414_Screenshot+2019-09-25+23.28.14.png)
 
 
-On the Actions page you should see 2 JavaScript workflow options. Find the Node.js (the one that is not a Package) option and click the `Set up this workflow` button.
+Na página das Actions, você verá 2 opções de workflows JavaScript. Encontre a opção Node.js (a que não é um Package) e clique no botão `Set up this workflow`.
 
-_Note: The [actions/starter-workflows](https://github.com/actions/starter-workflows) repository contains many sample workflow files._
+_Nota: O repositório [actions/starter-workflows](https://github.com/actions/starter-workflows) contém vários exemplos de arquivos de workflow._
 
-The Actions Workflow wizard will install the sample workflow selected in your repo within the `.github` folder. You may edit the name of the file and its contents on the screen provided.
+O Actions Workflow wizard irá instalar o workflow de exemplo selecionado no seu repositório dentro da pasta `.github`. Você pode editar o nome do arquivo e o seu conteúdo na tela.
 
 ![Screenshot 2019-10-09 17 02 03](https://user-images.githubusercontent.com/5713670/66528996-3d6bbe80-eaf1-11e9-98ca-d9bd5b148de8.png)
 
-Commit the `nodejs.yml` file to the master branch to complete this process of creating our first CI workflow. 
+Comite o arquivo `nodejs.yml` no branch master para completar este proceso de criação do seu primeiro worklfow de CI. 
 
-The `.github/workflows/` folder will include the contents from below:
+A pasta `.github/workflows/` irá incluir os seguintes conteúdos:
 
 
     name: Node CI
@@ -56,14 +56,14 @@ The `.github/workflows/` folder will include the contents from below:
           env:
             CI: true
 
-_Take note that our workflow is running a strategy with 3 versions of node, [8, 10, and 12]. This will be important to know later._ 
-
-Because your new Actions CI is running on everything push, you should already have a workflow running. 
+_Perceba que nosso workflow está utilizando uma estratégia de rodar com 3 versões do node, [8, 10, and 12]. Isto é importante de saber para depois._ 
+ 
+Uma vez que a sua nova Actions CI está rodando a cada _push_, você já deve ter um workflow rodando. 
 
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1570060483830_Screenshot+2019-10-02+16.53.23.png)
 
 
-Note that we  will need to a test to run as part of our CI, Find the `index.test.js` file with the contents from below:
+Perceba que nós precisaremos que um teste rode como parte do nosso CI. Veja o arquivo `index.test.js` com o conteúdo abaixo:
 
 ```js
 // index.test.js
