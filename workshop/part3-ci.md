@@ -63,7 +63,7 @@ Because your new Actions CI is running on everything push, you should already ha
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1570060483830_Screenshot+2019-10-02+16.53.23.png)
 
 
-Note that we  will need to a test to run as part of our CI, Find the `index.test.js` file with the contents from below:
+Note that we  will need to run a test to run as part of our CI, Find the `index.test.js` file with the contents from below:
 
 ```js
 // index.test.js
