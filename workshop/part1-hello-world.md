@@ -52,7 +52,7 @@ The basics you should know is there is an Action already made for you in the `.g
 
 Find out more about the core concepts of [GitHub Actions](https://help.github.com/en/articles/about-github-actions#core-concepts-for-github-actions).
 
-One thing to take note of workflows are **jobs**.
+One thing to take note is workflows include **jobs**.
 
 A `job` is defined task made up of steps. Each job is run in a fresh instance of the virtual environment. You can define the dependency rules for how jobs run in a workflow file. Jobs can run at the same time in parallel or be dependent on the status of a previous job and run sequentially. For example, a workflow can have two sequential jobs that build and test code, where the test job is dependent on the status of the build job. If the build job fails, the test job will not run.
 
