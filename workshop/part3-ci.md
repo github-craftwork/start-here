@@ -35,26 +35,22 @@ The `.github/workflows/` folder will include the contents from below:
     
     jobs:
       build:
-    
+
         runs-on: ubuntu-latest
-    
+
         strategy:
           matrix:
-            node-version: [8.x, 10.x, 12.x]
-    
+            node-version: [10.x, 12.x, 14.x]
+
         steps:
-        - uses: actions/checkout@v1
+        - uses: actions/checkout@v2
         - name: Use Node.js ${{ matrix.node-version }}
           uses: actions/setup-node@v1
           with:
             node-version: ${{ matrix.node-version }}
-        - name: npm install, build, and test
-          run: |
-            npm install
-            npm run build --if-present
-            npm test
-          env:
-            CI: true
+        - run: npm ci
+        - run: npm run build --if-present
+        - run: npm test
 
 _Take note that our workflow is running a strategy with 3 versions of node, [8, 10, and 12]. This will be important to know later._ 
 
