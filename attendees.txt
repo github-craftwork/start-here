@@ -74,3 +74,5 @@
 @TekGadgt
 @FranklinChen
 @F-Nino
+@jasonruesch
+@armccoy
