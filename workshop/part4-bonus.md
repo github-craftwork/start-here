@@ -9,3 +9,4 @@ Here are a few more things you can add to your workflows with Actions. If time p
 - [automerge-action](https://github.com/marketplace/actions/merge-pull-requests) 
 - [Create your own action](https://help.github.com/en/articles/creating-a-javascript-action) 
 - [Adding GitHub Actions To Your Existing Projects](https://www.youtube.com/watch?v=GhhoHOpp9HY)
+- [Build GitHub Actions with a Docker Container](https://www.youtube.com/watch?v=NRCqL9ifpcw)
