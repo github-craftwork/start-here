@@ -52,7 +52,7 @@ The `.github/workflows/` folder will include the contents from below:
         - run: npm run build --if-present
         - run: npm test
 
-_Take note that our workflow is running a strategy with 3 versions of node, [8, 10, and 12]. This will be important to know later._ 
+_Take note that our workflow is running a strategy with 3 versions of node, [10, 12 and 14]. This will be important to know later._ 
 
 Because your new Actions CI is running on everything push, you should already have a workflow running. 
 
