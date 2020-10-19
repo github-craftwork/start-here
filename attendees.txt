@@ -73,6 +73,12 @@
 @davidbates
 @TekGadgt
 @FranklinChen
+@F-Nino
 @jasonruesch
 @armccoy
+@scawilliams
+@dsjen
+@malawrim
+@jaadbarg
+@maxresdefault2
 @liropa
