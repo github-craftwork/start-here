@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: staging
-      url: http://staging.int.github.com
+      url: http://staging.int.bdougie.live
 
     steps:
 
@@ -74,7 +74,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: production
-      url: http://www.design.github.com
+      url: http://www.design.bdougie.live
 
     steps:
 
@@ -95,7 +95,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: production
-      url: http://www.github.com
+      url: http://www.bdougie.live
 
     steps:
 
@@ -116,7 +116,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: review
-      url: http://review-23.lab.github.com
+      url: http://review.bdougie.live
 
     steps:
 
