@@ -14,8 +14,7 @@ Once you have submitted your comment, head over to the [Actions tab](https://git
 
 Note that  this could take up to 30 seconds to show. Also be sure to check your email for that invite.
 
-![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569470503869_Screenshot+2019-09-25+21.01.27.png)
-
+![invite example](https://user-images.githubusercontent.com/20134767/112921024-11267200-90d8-11eb-82b3-996b1f176a34.png)
 ----------
 
 ## Part 0a: Open a PR
