@@ -9,7 +9,7 @@ jobs:
       with:
         github-token: "${{ secrets.GITHUB_TOKEN }}"
     - name: Label when approved
-      uses: bdougie/label-when-approved-action@master
+      uses: bdougie/label-when-approved-action@main
       env:
         APPROVALS: "1"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
