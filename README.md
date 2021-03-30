@@ -1,14 +1,13 @@
 # What are GitHub Actions?
 
-[video](https://www.youtube.com/watch?v=jxDoP0esFZ8&list=PLpURC3VhaQD29vdGBngvrIapNRjLIq64x&index=1)
-
 GitHub Actions allows you to automate, customize and execute your software development workflows inside your repository.
 
-# Intro
+_[YouTube Playlist](https://www.youtube.com/watch?v=jxDoP0esFZ8&list=PLpURC3VhaQD29vdGBngvrIapNRjLIq64x&index=1)_
+
+## Intro
 Welcome to the Craftwork cheat sheet! This page has everything you need to make it through the Craftwork workshop. If you don't see the next step, or you have questions that aren't answered by the [FAQ](workshop/FAQ.md), don't be afraid to raise your hand and ask us!
 
-If you are viewing this as part of a workshop, here is a [link to the slides](https://drive.google.com/file/d/18AIorSzf-h6JpZh0nXUg_wQzhCh7llE4/view?usp=sharing).
-
+If you are viewing this as part of a ATO workshop, here is a [link to the slides](https://drive.google.com/file/d/18AIorSzf-h6JpZh0nXUg_wQzhCh7llE4/view?usp=sharing).
 
 ## Part 0: Join the org
 
