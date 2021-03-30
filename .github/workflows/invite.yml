@@ -8,6 +8,7 @@ jobs:
     name: Prepare invite for new contributor
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: invite-contributor
       uses: ./action
       env:
