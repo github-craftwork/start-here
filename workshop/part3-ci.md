@@ -24,7 +24,7 @@ The Actions Workflow wizard will install the sample workflow selected in your re
 
 ![Screenshot 2019-10-09 17 02 03](https://user-images.githubusercontent.com/5713670/66528996-3d6bbe80-eaf1-11e9-98ca-d9bd5b148de8.png)
 
-Commit the `nodejs.yml` file to the master branch to complete this process of creating our first CI workflow. 
+Commit the `nodejs.yml` file to the main branch to complete this process of creating our first CI workflow. 
 
 The `.github/workflows/` folder will include the contents from below:
 
@@ -70,7 +70,7 @@ test('that weekNum returns a value', () => {
 });
 ```
 
-The result of that last push to master should look like this image:
+The result of that last push to main should look like this image:
 
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1570060795895_Screenshot+2019-10-02+16.59.26.png)
 
@@ -91,7 +91,7 @@ test('that weekNum returns a number', () => {
 });
 ```
 
-Add the above test using the UI, but instead of committing directly to the master branch, open a pull request to trigger you CI workflow again.. 
+Add the above test using the UI, but instead of committing directly to the main branch, open a pull request to trigger you CI workflow again.. 
 
 We have not created a pull request until now, so please take note that you can see all the workflows triggering through a GitHub [Check Suite](https://developer.github.com/v3/checks/). All Action Workflows are being powered by this API feature. And since we are on the subject the GitHub Actions bot is built on the [GitHub App](https://developer.github.com/apps/) framework that has already popularized by a number of our [Marketplace](https://github.com/marketplace) and Ecosystem partners.
 
@@ -185,13 +185,13 @@ You can use the [Release Drafter GitHub Action](https://github.com/marketplace/a
       push:
         # branches to consider in the event; optional, defaults to all
         branches:
-          - master
+          - main
     
     jobs:
       update_draft_release:
         runs-on: ubuntu-latest
         steps:
-          # Drafts your next Release notes as Pull Requests are merged into "master"
+          # Drafts your next Release notes as Pull Requests are merged into "main"
           - uses: toolmantim/release-drafter@v5.2.0
             env:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -199,7 +199,7 @@ You can use the [Release Drafter GitHub Action](https://github.com/marketplace/a
 Once you’ve added Release Drafter to your repository, it must be enabled by adding a `.github/release-drafter.yml` configuration file to each repository.
 
 **Add release template**
-Create the following `.github/release-drafter.yml`  file in a repository and commit to your master branch:
+Create the following `.github/release-drafter.yml`  file in a repository and commit to your main branch:
 
     template: |
       ## What’s Changed
@@ -207,9 +207,9 @@ Create the following `.github/release-drafter.yml`  file in a repository and com
       $CHANGES
 
 **Make a change**
-Navigate to your package.json file in the repo and replace the contents with your details. Be sure to create merge a PR for this change instead of write to master.
+Navigate to your package.json file in the repo and replace the contents with your details. Be sure to create merge a PR for this change instead of write to main.
 
-Change:  Swap out my name with your handle and commit that to master.
+Change:  Swap out my name with your handle and commit that to main.
 
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569515320558_Screenshot+2019-09-26+09.27.43.png)
 
@@ -244,9 +244,9 @@ Navigate back to the **Actions** tab and find the “New Workflow” button to e
 ![](https://paper-attachments.dropbox.com/s_CDDCC4EC3C7C8C14E8A73684CA9909721C965A1258B4380D90B28E1A4E030470_1569486194937_Screenshot+2019-09-25+23.28.14.png)
 
 
-The file will require a changes. We only want to publish packages after they have been merged to master. 
+The file will require a changes. We only want to publish packages after they have been merged to main. 
 
-_The default setup runs this workflow on all open pull requests. This is not needed and will need to be removed. This workflow should only run on pushes to master._
+_The default setup runs this workflow on all open pull requests. This is not needed and will need to be removed. This workflow should only run on pushes to main._
 
 
     name: Node.js Package
@@ -254,7 +254,7 @@ _The default setup runs this workflow on all open pull requests. This is not nee
     on:
       push:
         branches:
-          - master
+          - main
     
 
 Scrolling through the `npmpublish.yml` you will see 3 jobs:
@@ -299,7 +299,7 @@ GitHub Package Registry is a software package hosting service, similar to npmjs.
 **Create a PR for this workflow**
 Commit this workflow to a new branch and open the pull request.
 
-Before you merge these changes to master, head over to the package.json and replace the git URL to match the repo you are working out of and replace the GitHub handles to yours.   
+Before you merge these changes to main, head over to the package.json and replace the git URL to match the repo you are working out of and replace the GitHub handles to yours.   
 
 To start the  `npmpublish` workflow, merge the PR.
 
