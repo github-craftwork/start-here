@@ -305,4 +305,4 @@ To start the  `npmpublish` workflow, merge the PR.
 
 ![Screenshot 2019-10-09 16 54 25](https://user-images.githubusercontent.com/5713670/66528746-8e2ee780-eaf0-11e9-9c68-149cbc1e7ddd.png)
 
-[Continue Part 4](part4-bonus.md)
+[Continue Part 4](part4-intermission.md)
