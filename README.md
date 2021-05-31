@@ -28,6 +28,6 @@ Now that you are in the org you can make a PR that adds your self to the [attend
 
 Try to figure how all that worked while we wait for the rest of the group to join the organization.
 
-Once you have pontificated enough, compare your thoughts with this explanation — clink the link below for the explanation here.
+Once you have pontificated enough, compare your thoughts with this explanation — click the link below for the explanation here.
 
 [See Explanation](workshop/part0-explanation.md) or [start part 1 of this tutorial](workshop/part1-hello-world.md)
