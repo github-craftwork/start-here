@@ -1,6 +1,4 @@
-This section is TBD 
-
-## Continuous Delivery with GitHub Actions
+# Part 4:  Continuous Delivery with GitHub Actions
 
 ```yml
 // cd.yml
