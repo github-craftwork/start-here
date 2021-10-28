@@ -1,15 +1,16 @@
 # Part 5:  Continuous Delivery with GitHub Actions
 
+_If you would liike to jump in to the giude repo, start by forking the [template](https://github.com/github-craftwork/docs-template)._
+
 GitHub Actions gets a lot of continuous integration, but what about continuous delivery?
 In this guide, I will share the building blocks for managing the continuous delivery of your project. With this foundation, you can have continuous integration, staging reviews, and production deployments in the same YAML.
-
 
 Using the visualization graph
 
 Every workflow run generates a real-time graph that illustrates the run progress. You can use this graph to monitor and debug workflows.
 The graph displays each job in the workflow. An icon to the left of the job name indicates the status of the job. Lines between jobs indicate dependencies.
 
-![Workflwo Visulaizer](https://res.cloudinary.com/practicaldev/image/fetch/s--_8HdrNE7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zldsi0fs96mkhn638cs3.png)
+![Workflow Visulaizer](https://res.cloudinary.com/practicaldev/image/fetch/s--_8HdrNE7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zldsi0fs96mkhn638cs3.png)
 
 ## Dependent jobs
 
@@ -46,6 +47,8 @@ Use deployment branches to restrict which branches can deploy to the environment
 - Selected branches: Only branches that match your specified name patterns can deploy to the environment.
 
 You can have certain events run for specific branches. You adjust the YAML to include branch names to only run CI checks on branches you needed them. Below is an example with placeholder text for the environment and commands. Please leverage this to get you started, but be sure to replace the text with your build and deploy steps.
+
+_example workflow_
 
 ```yml
 // cd.yml
