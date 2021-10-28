@@ -1,4 +1,4 @@
-# Part 4:  Continuous Delivery with GitHub Actions
+# Part 5:  Continuous Delivery with GitHub Actions
 
 GitHub Actions gets a lot of continuous integration, but what about continuous delivery?
 In this guide, I will share the building blocks for managing the continuous delivery of your project. With this foundation, you can have continuous integration, staging reviews, and production deployments in the same YAML.
@@ -11,9 +11,7 @@ The graph displays each job in the workflow. An icon to the left of the job name
 
 ![Workflwo Visulaizer](https://res.cloudinary.com/practicaldev/image/fetch/s--_8HdrNE7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zldsi0fs96mkhn638cs3.png)
 
-
-
-Dependent jobs
+## Dependent jobs
 
 By default, the jobs in your workflow all run in parallel at the same time. So if you have a job that must only run after another job has been completed, you can use the needs keyword to create this dependency. If one of the jobs fails, all dependent jobs are skipped; however, if you need the jobs to continue, you can define this using the if conditional statement.
 In this example, the setup, build, and test jobs run in series, with build and test being dependent on the successful completion of the job that precedes them:
@@ -34,12 +32,12 @@ In this example, the setup, build, and test jobs run in series, with build and t
         steps:
           - run: ./test_server.sh
     
-Environments
+## Environments
 
 You can configure environments with protection rules and secrets. When a workflow job references an environment, the job won't start until all of the environment's protection rules pass. A job also cannot access secrets that are defined in an environment until all the environment protection rules pass.
 Learn more about environments.
 
-Build and Deploy
+## Build and Deploy
 
 Use deployment branches to restrict which branches can deploy to the environment. Below are the options for deployment branches for an environment:
 
