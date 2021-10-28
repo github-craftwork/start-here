@@ -5,7 +5,7 @@ _If you would liike to jump in to the giude repo, start by forking the [template
 GitHub Actions gets a lot of continuous integration, but what about continuous delivery?
 In this guide, I will share the building blocks for managing the continuous delivery of your project. With this foundation, you can have continuous integration, staging reviews, and production deployments in the same YAML.
 
-Using the visualization graph
+## Using the visualization graph
 
 Every workflow run generates a real-time graph that illustrates the run progress. You can use this graph to monitor and debug workflows.
 The graph displays each job in the workflow. An icon to the left of the job name indicates the status of the job. Lines between jobs indicate dependencies.
