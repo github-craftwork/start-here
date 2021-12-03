@@ -1,6 +1,6 @@
 # Part 5:  Continuous Delivery with GitHub Actions
 
-_If you would liike to jump in to the giude repo, start by forking the [template](https://github.com/github-craftwork/docs-template)._
+_If you would like to jump into the guide repo, start by forking the [template](https://github.com/github-craftwork/docs-template)._
 
 GitHub Actions gets a lot of continuous integration, but what about continuous delivery?
 In this guide, I will share the building blocks for managing the continuous delivery of your project. With this foundation, you can have continuous integration, staging reviews, and production deployments in the same YAML.
