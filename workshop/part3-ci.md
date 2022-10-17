@@ -40,7 +40,7 @@ The `.github/workflows/` folder will include the contents from below:
 
         strategy:
           matrix:
-            node-version: [10.x, 12.x, 14.x]
+            node-version: [12.x]
 
         steps:
         - uses: actions/checkout@v2
@@ -112,10 +112,11 @@ In the package.json add a new line to the script that runs **npx** and **parcel*
 
 ```js
 // package.json
-
+"main": "index.js", // remove this line
 "scripts": {
   "test": "jest", // add the comma
-  "build":"npx parcel build index.js" // add this line
+  "start": "parcel index.js", // add this line
+  "build": "parcel build index.js" // add this line
 },
 ```
 
