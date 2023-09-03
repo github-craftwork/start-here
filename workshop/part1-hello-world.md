@@ -88,7 +88,7 @@ i.e. GITHUB_ACTOR.
           run: |
             echo "hello $GITHUB_ACTOR"
 
-Find out more about the [default environment variables](https://help.github.com/en/articles/virtual-environments-for-github-actions#default-environment-variables) available for you to leverage. 
+Find out more about the [default environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables) available for you to leverage. 
 
 You will find in the docs, in addition to the `GITHUB_ACTOR` secret variable, the `GITHUB_TOKEN` variables is available for us to perform Actions on our own repos.
 
