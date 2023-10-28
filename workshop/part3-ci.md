@@ -115,8 +115,8 @@ In the package.json add a new line to the script that runs **npx** and **parcel*
 "main": "index.js", // remove this line
 "scripts": {
   "test": "jest", // add the comma
-  "start": "parcel index.js", // add this line
-  "build": "parcel build index.js" // add this line
+  "start": "npx parcel index.js", // add this line
+  "build": "npx parcel build index.js" // add this line
 },
 ```
 
